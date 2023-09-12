@@ -2,22 +2,34 @@
     background-color: gray;
 }
 .logopagina {
-    width: 240px;
-    height: 240px;
+    width: 140px;
+    height: 140px;
 }
 .divlogo {
-    justify-content: center;
+    justify-content:left;
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 .boton {
-    background-color: black;
+    background-color:black; 
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     padding: 10px;
     width: 50px;
     height: 50px;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin: 50px;
+}
+.nav{
+    align-items: center;
+    margin: auto;
+    
+}
+form{
+    margin: 20px;
+    align-items: right;
+    margin: auto;
+}
+header{
+    display: flex;
 }
