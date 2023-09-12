@@ -30,6 +30,22 @@ form{
     align-items: right;
     margin: auto;
 }
+
 header{
     display: flex;
 }
+.container-lanzamiento{
+    display: flex;
+}
+.lanzamiento{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+.lanzamiento img{
+    height: 300px;
+    width: 200px;
+}
+
+
