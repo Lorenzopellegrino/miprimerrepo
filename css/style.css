@@ -53,5 +53,14 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
-
-
+.detalle{
+    margin: 100px;
+    display: flex;
+}
+.detalle-header{
+    display: flex;
+}
+.imgdetalle{
+    height: 320px;
+    width: 220px;
+}
