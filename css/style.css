@@ -81,8 +81,13 @@ article{
     color: black;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
-    margin: 60px;
+    margin: 30px;
 }
 h6{
+    text-align: center;
+}
+.genero{
+    margin: 20px;
+    display: block;
     text-align: center;
 }
