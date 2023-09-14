@@ -34,7 +34,7 @@ form{
 header{
     display: flex;
 }
-.container-lanzamiento{
+.container{
     display: flex;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -63,4 +63,9 @@ h2{
 .imgdetalle{
     height: 320px;
     width: 220px;
+}
+article{
+    display: flex;
+    margin: 50px;
+    
 }
