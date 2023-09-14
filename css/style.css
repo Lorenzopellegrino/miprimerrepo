@@ -1,5 +1,6 @@
 *{
     background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logopagina {
     width: 140px;
@@ -81,4 +82,7 @@ article{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
     margin: 60px;
+}
+h6{
+    text-align: center;
 }
