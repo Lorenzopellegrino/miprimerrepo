@@ -121,3 +121,19 @@ h6{
     padding: 15px;
     text-align: center;
 }
+@media (max-width: 420) {
+    .logopagina {
+        width: 100px;
+        height: 100px;
+    }
+    .boton{
+    background-color:black; 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 1px;
+    width: 5px;
+    height: 5px;
+    margin: 5px;
+    }
+}
