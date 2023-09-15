@@ -48,9 +48,15 @@ form{
 header{
     display: flex;
 }
-.container{
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
+
+.peliculasp{
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.tipogenero{
+    flex-wrap: wrap;
 }
 .lanzamiento{
     display: flex;
@@ -82,7 +88,7 @@ article{
     display: flex;
     margin: 50px;
 }
-.cartelera{
+.favoritos{
     margin: auto;
 }
 
