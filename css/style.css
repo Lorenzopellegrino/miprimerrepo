@@ -1,6 +1,7 @@
 *{
-    background-color: gray;
+    background-color: rgb(69, 69, 74);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 .logopagina {
     width: 140px;
@@ -30,6 +31,11 @@ form{
     margin: 20px;
     align-items: right;
     margin: auto;
+}
+.encabezado h2{
+    background-color: rgb(131, 125, 125);
+    padding: 15px;
+    
 }
 
 header{
@@ -92,4 +98,8 @@ h6{
     margin margin-left: 50px;
     display: block;
     text-align: center;
+}
+
+.footer h3{
+    color: black;
 }
