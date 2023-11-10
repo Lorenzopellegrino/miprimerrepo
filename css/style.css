@@ -8,11 +8,13 @@
     width: 140px;
     height: 140px;
 }
+
 .divlogo {
     justify-content:left;
     display: flex;
     align-items: left;
 }
+
 .boton {
     background-color:black; 
     color: white;
@@ -23,24 +25,35 @@
     height: 50px;
     margin: 50px;
 }
+
 .nav{
     align-items: center;
     margin: auto;
     
 }
+
 form{
     margin: 20px;
     align-items: right;
     margin: auto;
 }
+
 .encabezado{
     background-color: rgb(131, 125, 125);
     padding: 15px;
 }
+
 .encabezado h2{
     background-color: rgb(131, 125, 125);
    
 }
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
 .h2{
     padding: 30px;
 }
@@ -58,42 +71,57 @@ header{
 .tipogenero{
     flex-wrap: wrap;
 }
+
 .lanzamiento{
     display: flex;
     flex-direction: column;
     margin: auto;
     text-align: center;
 }
+
 .lanzamiento img{
     height: 320px;
     width: 220px;
 }
-h2{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
+
+.detalle-header{
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.detallemain{
+    flex-wrap: wrap;
+}
+
 .detalle{
     margin: 100px;
     display: flex;
 }
-.detalle-header{
-    display: flex;
+
+.detalle_serie_peli{
+    flex-wrap: wrap;
 }
+
 .imgdetalle{
     height: 320px;
     width: 220px;
 }
+
 article{
     display: flex;
-    margin: 50px;
+
 }
+
 .favoritos{
     margin: auto;
 }
 
+.tipogenero{
+    flex-wrap: wrap;
+    text-align: center;
+}
 .generopeli{
-    padding: 10px;
+    padding: 20px;
     width: 50px;
     height: 50px;
     background-color: white;
@@ -102,16 +130,21 @@ article{
     font-family: 'Times New Roman', Times, serif;
     margin: 30px;
 }
+
 h6{
     text-align: center;
 }
+
 .genero{
     margin: 20px;
     margin-right: 50px;
     margin-left: 50px;
     display: block;
     text-align: center;
+    width: 220px;
+    height: 320px;
 }
+
 .footer {
     text-align: center;
     padding: 20px;
@@ -122,11 +155,13 @@ h6{
     color: white;
     background-color: #333;
 }
+
 .titulogenero{
     background-color: rgb(131, 125, 125);
     padding: 15px;
     text-align: center;
 }
+
 @media (max-width: 420) {
     .logopagina {
         width: 100px;
