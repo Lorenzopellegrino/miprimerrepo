@@ -1,3 +1,10 @@
+function 
+
+
+
+
+
+
 let formulario = document.querySelector('form');
 let campoBusqueda = document.getElementById('.resultPeli');
 let resultadoBusqueda = document.getElementById('resultadoBusqueda');
