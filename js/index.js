@@ -1,5 +1,5 @@
 
-let peliculas = document.querySelector(".PELICULAS")
+let peliculas = document.querySelector(".peliculas")
 
 fetch("https://api.themoviedb.org/3/account/{account_id}/favorite/movies?api_key=bf0e25b4b648e8ee928c7dede4d12427")
     .then(function(response) {
@@ -16,20 +16,6 @@ fetch("https://api.themoviedb.org/3/account/{account_id}/favorite/movies?api_key
         }
     })
     .catch(function(error) {
-        console.log('Error!!');
+        console.log('Error!!', error);
     });
 
-    fetch("https://api.themoviedb.org/3/tv/popular/76341?api_key=514fe6f92e87e8b96d2b08b7f2b1a078")
-    .then(function(response){
-        return responde.json()
-    })
-    .then(function(data){
-        let info = data.results
-        console.log(info)
-
-        let contenedorSerie = document.querySelector(".")
-
-        for(let i = 0; i < info.length; i++) {
-            contenedorSerie.innerHTML += 
-        }
-    })
