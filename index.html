@@ -16,13 +16,13 @@
             <nav class="menu">
                 <a class="boton" href="index.html">HOME</a>
                 <a class="boton" href="favoritos.html">FAVORITOS</a>
-                <a class="boton" href="tipogeneros.html">CATEGORIAS</a>
+                <a class="boton" href="generos.html">CATEGORIAS</a>
             </nav>
        </div>
        
        <form class="campodebusqueda" action="resultadobusqueda.html" method="get">
             <label for="pelicula">Busar Pelicula/Serie: </label>
-            <input type ="search" name="busqueda" value="">
+            <input type ="search" name="busqueda" value="" class="barra-busqueda">
             <button type="submit">Buscar</button>
         </form>
     </header>
@@ -31,11 +31,13 @@
     <main>
         <div class="encabezado">
                 <h2>PELICULAS</h2>
-            </div>
+        </div>
         <section class="container">
             
-            
-            <article class="peliculasp">
+            <div class="peliculap" id="pelicula-2023">
+
+            </div>
+            <!-- <article class="peliculasp">
                 <div class="lanzamiento">
                     <h4>Peliculas Populares</h4>
                     <a href="detallepelicula.html"><img src="./img/pelicula.jpeg" alt="pelinueva"></a>
@@ -65,15 +67,18 @@
                     <h6><a href="./detallepelicula.html">Barbie</a>, 20 de julio de 2023</h6>
                 </div>
                 
-            </article>
+            </article> -->
 
         </section>
         <div class="encabezado">
             <h2>SERIES</h2>
         </div>
         <section class="container">
+            <div class="peliculasp" id="series">
 
-            <article class="peliculasp">
+            </div>
+
+            <!-- <article class="peliculasp">
                 <div class="lanzamiento">
                     <h4>Series Populares</h4>
                     <a href="detalleserie.html"><img src="./img/serie.jpeg" alt="pelinueva"></a>
@@ -103,7 +108,7 @@
                     <h6><a href="detalleserie.html">Outer Banks</a>, 15 de abril de 2020</h6>
                 </div>
                 
-            </article>
+            </article> -->
 
         </section>
 
@@ -113,7 +118,11 @@
             <div class="encabezado">
                 <h2>POPULARES</h2>
             </div>
-            <article class="peliculasp">
+
+            <div class="peliculasp" id="populares">
+
+            </div>
+            <!-- <article class="peliculasp">
                 <div class="lanzamiento">
                     <h4>Pelicula Popular</h4>
                     <a href="detallepelicula.html"><img src="./img/granturismo.jpg" alt="pelipopu"></a>
@@ -143,7 +152,7 @@
                     <h6><a href="detallepelicula.html">Toy story 4</a>, 21 de junio de 2019</h6>
                 </div>
                 
-            </article>
+            </article> -->
         </section>
 
 

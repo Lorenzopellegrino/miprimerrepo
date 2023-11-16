@@ -15,22 +15,31 @@
         <nav class="menu">
             <a class="boton" href="index.html">HOME</a>
             <a class="boton" href="favoritos.html">FAVORITOS</a>
-            <a class="boton" href="tipogeneros.html">CATEGORIAS</a>
+            <a class="boton" href="generos.html">CATEGORIAS</a>
         </nav>
    </div>
 
         <form class="campodebusqueda" action="resultadobusqueda.html" method="get">
             <label for="pelicula">Busar Pelicula/Serie: </label>
-            <input id="input" type="search" name="busqueda" value="">
+            <input type="search" name="busqueda" value="" class="barra-busqueda">
             <button type="submit">Buscar</button>
         </form>
     </header>
 
     <main>
-    <h2 class="buscar"> Resultados de busqueda: </h2>
+    <div  class="encabezado">
+        <h2>RESULTADOS</h2>
+    </div>
+    <section class="container">
+        <div class="peliculasp" id="resultados">
+
+        </div>
+    </section>
+
+    <!-- <h2 class="buscar"> Resultados de busqueda: </h2>
     <section class="resultados">
 
-    </section>
+    </section> -->
     <!-- <article class="detallemain">
    <div class="detalle">
         <img class="imgdetalle" src="./img/pelicula.jpeg" alt="Oppenheimer">
@@ -238,7 +247,10 @@
         <div class="footer">
             <h3>Joaquin Marina</h3>
         </div>
+        <div class="footer">
+            <img class="imgfooter" src="./img/blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg" alt="">
+        </div>
     </footer>
-    <script src="./js/search-results.js"></script>
+    <script src="./js/busqueda.js"></script>
 </body>
 </html>
