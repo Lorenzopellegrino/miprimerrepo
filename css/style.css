@@ -197,3 +197,101 @@ h6{
         flex-direction: column;
     }
 }
+
+a{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.peliculasp{
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+article{
+    height: 220px;
+    width: 100px;
+}
+
+a{
+    flex-wrap: wrap;
+}
+
+.container{
+    flex-direction: row;
+}
+
+.tituPelis{
+    width: 150px;
+}
+
+.fecha-estreno{
+    width: 150px;
+}
+
+/* #pelicula-2023{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+#pelicula-2023 img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    height: 320px;
+    width: 220px;
+}
+#pelicula-2023 h5{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+#pelicula-2023 p{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+
+#series{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+}
+
+#populares{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+img{
+    height: 100px;
+} */

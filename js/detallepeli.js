@@ -1,5 +1,5 @@
-let query = location.search;
-let objBusqueda = new URLSearchParams(query);
+let buscar = location.search;
+let objBusqueda = new URLSearchParams(buscar);
 let id = objBusqueda.get('id');
 
 let detalles = document.querySelector('.resultPeli');

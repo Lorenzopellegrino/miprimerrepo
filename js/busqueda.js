@@ -1,6 +1,6 @@
 let contenedor = document.querySelector('#resultados');
-let queryBusqueda = location.search;
-let queryString = new URLSearchParams(queryBusqueda);
+let buscar = location.search;
+let queryString = new URLSearchParams(buscar);
 let pelicula0SerieBuscada = queryString.get('busqueda');
 let apikey = 'bf0e25b4b648e8ee928c7dede4d12427';
 
