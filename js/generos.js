@@ -9,7 +9,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=bf0e25b4b648e8ee928
         let infogeneros = data.genres;
         for (let i = 0; i < infogeneros.length; i++){
             generospeli.innerHTML +=`
-            <a class="botona" href="./generos.html?id=${infogeneros[i].id}"><article>
+            <a class="botona" href="./tipogeneros.html?id=${infogeneros[i].id}"><article>
                 <h2>${infogeneros[i].name}</h2>
             </article></a>`
         }        
@@ -29,7 +29,7 @@ fetch(`https://api.themoviedb.org/3/genre/tv/list?api_key=bf0e25b4b648e8ee928c7d
         let infogeneros = data.genres;
         for (let i = 0; i < infogeneros.length; i++){
             generosseries.innerHTML +=`
-            <a class="botona" href="./generos.html?id=${infogeneros[i].id}"><article>
+            <a class="botona" href="./tipogeneros.html?id=${infogeneros[i].id}"><article>
                 <h2>${infogeneros[i].name}</h2>
             </article></a>`
         }        
@@ -37,3 +37,4 @@ fetch(`https://api.themoviedb.org/3/genre/tv/list?api_key=bf0e25b4b648e8ee928c7d
     .catch(function(error){
         console.log('Error! Intente mas tarde');
     })
+

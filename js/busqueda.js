@@ -12,7 +12,7 @@ fetch(`https://api.themoviedb.org/3/search/multi?api_key=${apikey}&query=${pelic
         for(let i=0; i < data.results.length; i++){
             console.log(data);
             contenedor.innerHTML += `
-            <a href="./buscador.html?id=${data.results[i].id}">
+            <a href="./detallepelicula.html?id=${data.results[i].id}">
                 <article class="busque" id="ajs">
                     <img id="fotojs" src="https://image.tmdb.org/t/p/w500/${data.results[i].poster_path}" alt="${data.results[i].title}" class="img">
                     <p class="busque">
