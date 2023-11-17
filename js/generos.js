@@ -6,7 +6,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=bf0e25b4b648e8ee928
     })
     .then(function(data){
         console.log(data);
-        let infogeneros = data.generos;
+        let infogeneros = data.genres;
         for (let i = 0; i < infogeneros.length; i++){
             generospeli.innerHTML +=`
             <a href="./generos.html?id=${infogeneros[i].id}"><article>
@@ -26,7 +26,7 @@ fetch(`https://api.themoviedb.org/3/genre/tv/list?api_key=bf0e25b4b648e8ee928c7d
     })
     .then(function(data){
         console.log(data);
-        let infogeneros = data.generos;
+        let infogeneros = data.genres;
         for (let i = 0; i < infogeneros.length; i++){
             generosseries.innerHTML +=`
             <a href="./generos.html?id=${infogeneros[i].id}"><article>
