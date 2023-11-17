@@ -33,8 +33,7 @@ fetch('https://api.themoviedb.org/3/tv/top_rated?api_key=bf0e25b4b648e8ee928c7de
     .then(function(data){
         for (let i = 0; i < 18; i++) {
             pelisreco.innerHTML += `
-            
-            <a href="./detail-serie.html?id=${data.results[i].id}">
+            <a href="./detalleserie.html?id=${data.results[i].id}">
             <article class="busque">
                 <img class="busque" src="https://image.tmdb.org/t/p/w500/${data.results[i].poster_path || ''}" />
                 <h2>${data.results[i].name || ''}</h2>
