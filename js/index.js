@@ -7,7 +7,7 @@ fetch("https://api.themoviedb.org/3/movie/popular?api_key=bf0e25b4b648e8ee928c7d
         let results = data.results
         let peliculas = document.querySelector("#pelicula-2023")
 
-        for (let i = 0; i < 7; i++){
+        for (let i = 0; i < 11; i++){
             peliculas.innerHTML += `
                 <a  href="./detallepelicula.html?id=${results[i].id}">
                     <article id="aajs">
@@ -31,7 +31,7 @@ fetch("https://api.themoviedb.org/3/tv/popular?api_key=bf0e25b4b648e8ee928c7dede
         let results = data.results
         let series = document.querySelector("#series")
 
-        for (let i = 0; i < 7; i++){
+        for (let i = 0; i < 11; i++){
             series.innerHTML += `
                 <a href="./detalleserie.html?id=${results[i].id}">
                     <article id="aajs">
@@ -55,7 +55,7 @@ fetch("https://api.themoviedb.org/3/movie/top_rated?api_key=bf0e25b4b648e8ee928c
         let results = data.results
         let populares = document.querySelector("#populares")
 
-        for (let i = 0; i < 7; i++){
+        for (let i = 0; i < 11; i++){
             populares.innerHTML += `
                 <a  href="./detallepelicula.html?id=${results[i].id}">
                     <article id="aajs">
