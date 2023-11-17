@@ -15,13 +15,12 @@ fetch(`https://api.themoviedb.org/3/search/multi?api_key=${apikey}&query=${pelic
             <a href="./buscador.html?id=${data.results[i].id}">
                 <article class="busque" id="ajs">
                     <img id="fotojs" src="https://image.tmdb.org/t/p/w500/${data.results[i].poster_path}" alt="${data.results[i].title}" class="img">
-                    <ul class="busque">
+                    <p class="busque">
                         ${data.results[i].title ? data.results[i].title : data.results[i].name}<br>
-                        Sinopsis: ${data.results[i].overview}<br>
                         Fecha de estreno: ${data.results[i].release_date ? data.results[i].release_date : data.results[i].first_air_date}<br>
                         Genero: ${data.results[i].genre_ids.length > 0 ? data.results[i].genre_ids[0] : 'N/A'}<br>
                         Rating: ${data.results[i].vote_average}<br>
-                    </ul>
+                    </p>
                     </article>
                 <article id="aajs">
                     
