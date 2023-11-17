@@ -255,6 +255,15 @@ h6 {
     padding-top: 10px;
 }
 
+#recoserie{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 10px;
+}
+
 #ajs{
     align-items: center;
 }
@@ -265,5 +274,11 @@ h6 {
     max-width: 220px;
 }
 
+.resulttv{
+    margin: 10px;
+}
 
+.resultPeli{
+    margin: 10px;
+}
 
