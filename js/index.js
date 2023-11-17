@@ -10,7 +10,7 @@ fetch("https://api.themoviedb.org/3/movie/popular?api_key=bf0e25b4b648e8ee928c7d
         for (let i = 0; i < 12; i++){
             peliculas.innerHTML += `
                 <a  href="./detallepelicula.html?id=${results[i].id}">
-                    <article id="aajs">
+                    <article id="hola">
                         <img id="fotojs" src="https://image.tmdb.org/t/p/w500/${results[i].poster_path}" alt="pelis"></img>
                     </article>
                     <h5 class="tituPelis">${results[i].title}</h5>
@@ -34,7 +34,7 @@ fetch("https://api.themoviedb.org/3/tv/popular?api_key=bf0e25b4b648e8ee928c7dede
         for (let i = 0; i < 12; i++){
             series.innerHTML += `
                 <a href="./detalleserie.html?id=${results[i].id}">
-                    <article id="aajs">
+                    <article id="hola">
                         <img id="fotojs" src="https://image.tmdb.org/t/p/w500/${results[i].poster_path}" alt="series"></img>
                     </article>
                     <h5 class="tituSeries">${results[i].name}</h5>
@@ -58,7 +58,7 @@ fetch("https://api.themoviedb.org/3/movie/top_rated?api_key=bf0e25b4b648e8ee928c
         for (let i = 0; i < 12; i++){
             populares.innerHTML += `
                 <a  href="./detallepelicula.html?id=${results[i].id}">
-                    <article id="aajs">
+                    <article id="hola">
                         <img id="fotojs" src="https://image.tmdb.org/t/p/w500/${results[i].poster_path}" alt="peliculas"></img>
                     </article>
                     <h5 class="tituPelis">${results[i].title}</h5>
