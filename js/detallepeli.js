@@ -10,8 +10,8 @@ fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=bf0e25b4b648e8ee928c7ded
     .then(function(data){
         console.log(data);
         detalles.innerHTML += `
-            <article>
-                <img src="https://image.tmdb.org/t/p/w500/${data.poster_path || ''}" />
+            <article id="detallearticle">
+                <img id="fotojs" src="https://image.tmdb.org/t/p/w500/${data.poster_path || ''}" />
                 <h2>${data.title || ''}</h2>
                 <h3> Sinopsis: ${data.overview || ''} </h3>
                 <h3> Duracion: ${data.runtime || ''} </h3>
@@ -33,8 +33,9 @@ fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=bf0e25b4b648e8ee928c
     .then(function(data){
         for (let i = 0; i < 5; i++) {
             pelisreco.innerHTML += `
-            <a href="./detail-pelis.html?id=${data.results[i].id}"><article>
-                <img src="https://image.tmdb.org/t/p/w500/${data.results[i].poster_path || ''}" />
+            <a href="./detail-pelis.html?id=${data.results[i].id}">
+            <article class="busque">
+                <img id="fotojs" src="https://image.tmdb.org/t/p/w500/${data.results[i].poster_path || ''}" />
                 <h2>${data.results[i].title || ''}</h2>
             </article></a>`;
         }
